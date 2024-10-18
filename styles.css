@@ -1,0 +1,166 @@
+
+/* Estadísticas */
+#estadisticas h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+#estadisticas .row .col-md-4 {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.nav-tabs {
+    justify-content: center;
+}
+
+/* Cambiar las flechas a negras usando SVG */
+.carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg xmlns%3D"http%3A//www.w3.org/2000/svg" fill%3D"%23000000" viewBox%3D"0 0 8 8"%3E%3Cpath d%3D"M4.5 0L0 4l4.5 4V5h3V3h-3V0z"/%3E%3C/svg%3E');
+}
+
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg xmlns%3D"http%3A//www.w3.org/2000/svg" fill%3D"%23000000" viewBox%3D"0 0 8 8"%3E%3Cpath d%3D"M3.5 0L8 4 3.5 8V5H0V3h3.5V0z"/%3E%3C/svg%3E');
+}
+
+.carousel-item h2 {
+    text-align: center;
+} 
+
+.carousel-item img {
+    height: 100%;
+    width: auto;
+
+}
+
+#containerprincipal{
+    min-height: 75vh;
+}
+
+footer {
+    padding: 8px;
+}
+
+/*estilo del titulo*/
+
+@font-face {
+    font-family: titulo;
+    src: url(fuentes/BALEHOME.woff);
+}
+
+header h1 {
+    font-family: titulo;
+    font-size: 70px;
+}
+ 
+/*estilos de la barra de navegacion*/
+#container1 {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: rgb(0, 0, 177);
+    width: 100%;
+}
+
+#container1 a{
+    color: white;
+    font-family: titulobarra;
+}
+@font-face {
+    font-family: titulobarra;
+    src: url(fuentes/balloons.woff);
+}
+
+/*estilos slider*/
+@font-face {
+    font-family: slider;
+    src: url(fuentes/FleaMarketFinds.woff);
+}
+.rojo {
+    color: rgb(208, 36, 26 );
+    font-family: slider;
+    font-size: 50px;
+}
+.amarillo {
+    color: rgb(255, 217, 0);
+    font-family: slider;
+    font-size: 50px;
+}
+.azul {
+    color: rgb(1, 124, 191);
+    font-family: slider;
+    font-size: 50px;
+}
+
+.naranja {
+    color: rgb(207, 83, 38);
+    font-family: slider;
+    font-size: 50px;
+}
+
+/* estilos de apartado de señales*/
+
+.card img {
+    height: auto;
+}
+/*estilos de las ventanas modal*/
+
+dialog::backdrop {
+    background-color: rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+
+}
+
+dialog {
+    border: 1px #e0e0e0;
+    max-width: 50ch;
+    background-color: #f9f9f9;
+    border-radius: 10px;font-family: Arial, sans-serif;
+    color: #333;
+}
+
+dialog img{
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+dialog h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+dialog p{
+    line-height: 1.5;
+}
+dialog button{
+    background-color: rgb(49, 49, 49);
+    color: white;
+    border-radius: 5px;
+}
+#cuestionario img{
+    overflow: hidden;
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#imgniños img{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 90%;
+    width: 90%;
+}
